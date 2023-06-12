@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Game15pz" parent="Theme.AppCompat.Light.DarkActionBar">
+
+         <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:onClick">btnClick</item>
+    </style>
+    <style name="Theme.Game15pz" parent="Base.Theme.Game15pz" />
+</resources>
